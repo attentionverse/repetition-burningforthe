@@ -1,4 +1,5 @@
-Introduction of the basic html. 
+                                <!-- Chapter 1: Introduction of the basic html.--> 
+                                
 Html is stands for Hyper Text markup language  used for creating the web pages. Web browser read these html files and display them correctly.
 Its consist of several components, series of tags and the browser renders it using these properties of the html. 
 
@@ -33,7 +34,7 @@ With this Example of the tags and basic representation of the html:
 This is the basic template of the html and we use it to  display a basic webpage, In the upcoming chapter we can learn about different types of  tags
 and its elements and attributes. 
 
-Chapter: 2 Elements in the html
+                                      <!--Chapter: 2 Elements in the html-->
 
 "HTML-elements": It is the another part of the basic of the Html which is very important for the structure of the html. 
 The element is like this: <tag>content</tag> this how we described an element in html for example: <p>Hello world!</p> . 
@@ -69,6 +70,62 @@ With this Example of the element:
 </html>
 
 Here we use <p> element and <br> element  inside the body tag or we can say body element.
+
+                                    <!--Chapter 3: Attributes in the HTML.--> 
+
+Now we know what is an Element in the html but we don't know how can we modified that element in the html for this problem we need 
+a solution which is known as an Attributes in Html.
+
+Attributes is like properties of the element or we can say it provides more information about the elements.
+There are some rules for calling the attributes inside an element:
+
+1. It always be specified/written inside the starting tag of the elements.
+for i.e: <p style="font-size: 100px;">Hello World!</p>. 
+In the above example "style" is the attributes for the <p> element which modified the "Hello World!" and increase the font-size of the "Hello World!". 
+
+2. It always comes with the predefined name and its predefined vlaues like above in the example.
+There are several pre-defined names for the attributes for i.e: 'style', 'class', 'id', 'href', 'src'...etc which we discussed later in the chapters. 
+
+3. Always quotes the Attributes.
+
+4. It should be written in lowercase.
+
+Lets take an example of <a> element where we use 'href' as attributes and discussed its functionality: 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <p>This is the example of the anchor tag where we use 'href'as attributes</p>
+        <a href="https://ryanstutorials.net/html-tutorial/html.php">Click me</a>
+    </body>
+    </html>
+    In the above example we use an <a> element and use {href} as attribute, the {href} attributes will create a hyper text link. When we click on it it will redirect us to the new web page.
+    And that is how our basic html work.
+
+Lets take another example where we use <img> as an element and <src> as an attribute :
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <title>Document</title>
+    </head>
+    <body>
+        <img src="https://cdn.pixabay.com/photo/2016/07/05/18/35/aircraft-1499171__340.jpg">
+    </body>
+    </html>    
+    So here we use <img> as element and <src> as attribute because we declare <img> tag for the image in the html however for this we need a source file also.
+        For that we need this {src} attribute so we can put our url/location in it.
+        
+        There are 2 type of Url/location in {src} attributes: 
+        1. Absolute Url: It is a Url in which we use external link from the another website/Internet. 
+        for example: "https://cdn.pixabay.com/photo/2016/07/05/18/35/aircraft-1499171__340.jpg
+                          
+        2. Relative Url: In this we use local storage or store image within the website. 
+        For example:C:\Users\Shekhar\repos\repetition-burningforthe\html-basics. 
+
+
 
 
 
