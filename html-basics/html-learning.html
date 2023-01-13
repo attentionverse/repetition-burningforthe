@@ -7,28 +7,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first program</title>
     <link rel="icon" type="image/x-icon" href="https://www.hdwallpapers.in/thumbs/2020/2020_john_wick_dog_4k_hd-t2.jpg">
-    
+
 </head>
 <style>
     .movie {
         border: 1px solid black;
         background-color: teal;
     }
+
     .ordered {
         background-color: chartreuse;
     }
-    .movie1{
+
+    .movie1 {
         background-color: orangered;
     }
-    .movie2{
+
+    .movie2 {
         background-color: red;
     }
-    .continue_work_from_6pm{
+
+    .continue_work_from_6pm {
         border: 1px solid black;
     }
-    #pm-6{
+
+    #pm-6 {
         background-color: lightcoral;
     }
+
+    
+/* Style the header */
+header {
+    background-color: rgb(161, 184, 62);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(7, 7, 7);
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: rgb(204, 63, 63);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
 </style>
 
 <body>
@@ -66,7 +127,7 @@
             <td>999999999999999999</td>
         </tr>
        </table>-->
-     <!---------------------------Work from 5 pm---------------->
+    <!---------------------------Work from 5 pm---------------->
     <h1> This is a list Tag for unordered list </h1>
     <ul>
         <li> this is an unordered list example 1 </li>
@@ -94,41 +155,90 @@
             <li>Sunil shetty</li>
         </ul>
         <h1 class="movie2">Phir Hera Pheri</h2>
-        <p>The Actors are :</p>
-        <ol class="ordered">
-            <li>Rajpal yadav</li>
-        </ol>
+            <p>The Actors are :</p>
+            <ol class="ordered">
+                <li>Rajpal yadav</li>
+            </ol>
     </div>
     <!---on 12/01/23 til 6:00 pm my work
          1. List in html covered.
          2. Block and Inline in html covered.
-         3. Class and mutli-Class in html covered --> 
-   
-              <!-----------------WORK FROM 6 PM----------------------------------->    
-              <div class="continue_work_from_6pm">
-                <h1 id="pm-6">THis is my 6 pm work in id element in html</h1>
-                <pre>I had worked from 6 pm on this Html Technology.
+         3. Class and mutli-Class in html covered -->
+
+    <!-----------------WORK FROM 6 PM----------------------------------->
+    <div class="continue_work_from_6pm">
+        <h1 id="pm-6">THis is my 6 pm work in id element in html</h1>
+        <pre>I had worked from 6 pm on this Html Technology.
                 Where I id is unique/ constant value which can be used for only one time</pre>
-              </div>
-              <!---Here I have covered the topic ID in html and embeded it inside a div---->
-              
-              <!--Iframe topic inside a div--->
+    </div>
+    <!---Here I have covered the topic ID in html and embeded it inside a div---->
 
-            <div class="iframe-inside-the-div">
-                <h1>Web-page calling web-page😁</h1>
-                <h2>It got refresh in every 20 seconds</h2>
-                <iframe src="first_iframe.htm" name="iframe_a" height="300px" width="50%" title="Iframe Example"></iframe>
-                <p><a href="C:\Users\Shekhar\repos\repetition-burningforthe\html-basics\html-learning.html" target="iframe_a">My own web page</a></p>
-                <p>Click on the link Named as My own web page</p>
+    <!--Iframe topic inside a div--->
 
-            </div>
+    <div class="iframe-inside-the-div">
+        <h1>Web-page calling web-page😁</h1>
+        <h2>It got refresh in every 20 seconds</h2>
+        <iframe src="first_iframe.htm" name="iframe_a" height="300px" width="50%" title="Iframe Example"></iframe>
+        <p><a href="C:\Users\Shekhar\repos\repetition-burningforthe\html-basics\html-learning.html" target="iframe_a">My
+                own web page</a></p>
+        <p>Click on the link Named as My own web page</p>
 
-                <!---on 12/01/23 til 7:00 pm my work
+    </div>
+
+    <!---on 12/01/23 til 7:00 pm my work
          1. ID in html covered.
          2. Iframe in html covered.
          3. Meta-data in html covered.
-         4. file-path in html covered.  --> 
-   
+         4. file-path in html covered.  -->
+
+    <!--Date 13/01/23 work till 11:00 AM. -->
+    <!---CHAPTER 1 LAYOUT IN HTML-->
+    <div class="first_hour">
+        <h1>CHAPTER 1: LAYOUT IN HTML </h1>
+        <p>A layout is like newspaper where we saw different article abou the news and incidents.
+            Just like newspaper we have everything in the layout in html.
+        <ul>
+            <li> HEADING/TITLE of the newspaper is like HEADER in html. </li>
+            <li> Just below the heading we got a horizontal line where they mentioned the url of there website are known as NAVBAR in Html.</li>
+            <li>Now we have Article & section part in html page. Its like the space where the news article are printed on the newspaper.</li>
+            <li>Now we have Aside in the Html which contains small links of different pages because we can't turn the webpages😁</li>
+            <li>And the last is footer in the Html layout, It's basically an end of the newspaper/webpage.</li>
+        </ul>
+
+        </p>
+
+    </div>
+    <!--Example of the layout-->
+    <div> 
+        <header>
+            <h2>TIMES OF NOW</h2>
+          </header>
+          
+          <section>
+            <nav>
+              <ul>
+                <li><a href="#">PAGE1</a></li>
+                <li><a href="#">PAGE2</a></li>
+                <li><a href="#">PAGE3</a></li>
+              </ul>
+            </nav>
+            
+            <article>
+              <h1>PAGE1</h1>
+              <p>
+                TODAY IS FRIDAY.
+              </p>
+            </article>
+          </section>
+          
+          <footer>
+            <p>Footer</p>
+          </footer>
+
+
+
+    </div>
+
 </body>
 
 </html>
